@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-image: url('images/nav\ bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 50% 20% / 10% 40%;       
+    border-bottom: 4mm ridge rgba(169, 218, 33, 0.6);
+    box-shadow: 10px 5px 5px red;
+
+    height: 38vh;
+    width: 80%;
+    display: block;
+    margin: auto;
+   
+    
+}
+.image{
+    display: flex;
+    justify-content: center ;
+    
+}
+.image img{
+    height: 200px;
+    margin: -20px 0px;
+    /* height: 30%; */
+}
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(8, 67, 185);
+
+}
+.fa-square-instagram{
+    font-size: 30px;
+    color: #e4405f;
+    
+}
+.fa-youtube{
+    font-size: 30px;
+    color: rgb(255, 14, 14);
+}
+.nav-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px 80px;
+}
+.nav-element h1{
+    font-size: 2.5rem;
+    font-family: 'PT Serif', serif;
+}
+.icons i{
+    padding-right: 15px;
+    
+}
+.icons i:hover{
+transform: translate(0,-10px);
+transition: all 0.5s linear;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: rgb(51, 56, 209);
+    border-color:rgb(51, 56, 209) ;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 0,0,0,rgb(51, 56, 209);
+    cursor: pointer;
+
+}
+.btn:hover , .btn i:hover{
+    color: rgb(45, 212, 67);
+    border-color:rgb(45, 212, 67) ;
+    outline: none;
+    box-shadow: 0,0,0,(45, 212, 67);
+
+}
+.btn i {
+    margin-right: 10px;
+}
+.moto h3{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+} 
+.btn1{
+    margin: 2px 5px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(51, 56, 209);
+    border-color:rgb(51, 56, 209) ;
+    outline: none;
+    box-shadow: 0,0,0,rgb(51, 56, 209);
+    cursor: pointer;
+    
+}
+.btn1:hover{
+    color: rgb(45, 212, 67);
+    border-color:rgb(45, 212, 67) ;
+    outline: none;
+    box-shadow: 0,0,0,(45, 212, 67);
+
+}
+
+/* Form section */
+
+.form-container{
+    height: 100vh;
+    width: 80%;
+    display: block;
+    margin: auto;
+    /* background-color: aqua; */
+    margin-top: 4rem;
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+
+
+}
+
+.form-items{
+
+    height: 80px;
+    width: 95%;
+    /* background-color: #e4405f; */
+    display: block;
+    margin: auto;
+}
+.items1{
+    height: 80px;
+    width: 95%;
+    /* background-color: #e4405f; */
+    display: block;
+    margin: auto;
+}
+.items1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+}
+.items1 input{
+    width: 98%;
+    padding: 13px 20px;
+    margin-left: -5px;
+    margin-top: 8px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1rem;
+    border: 3px solid rgb(45, 212, 67);
+}
+.items1 label{
+    margin-left: -8px;
+    font-size: 1.2rem;
+    color: rgb(51, 56, 209);
+
+
+}
+.form-items input{
+    width: 90%;
+    padding: 13px 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1rem;
+    border: 3px solid rgb(45, 212, 67);
+}
+.form-items label{
+    margin-left: 12px;
+    font-size: 1.2rem;
+    color: rgb(51, 56, 209);
+
+    
+}
+
+
+/* upload picture */
+
+.upload-container {
+    width: 60%;
+    max-width: 400px;
+    margin: 40px 225px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.upload-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.upload {
+    width: 100%;
+    height: 100px;
+    padding: 50px 15px 0;
+    border: 2px dashed #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.upload:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+.upload-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.upload-container input {
+    display: none;
+}
+
+.upload-container label i {
+    font-size: 3rem;
+}
+
+/* Submit Button */
+
+.button1{
+    height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.btn2{
+    padding: 19px 69px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f9f9f9;
+    background-color:rgb(51, 56, 209) ;
+    /* border-color: rgb(51, 56, 209); */
+    outline: none;
+    /* border: none; */
+    /* box-shadow: 0,0,0,rgb(51, 56, 209); */
+    cursor: pointer;
+transition: all 0.5s ease-in-out;
+
+
+}
+.btn2:hover{
+background-color: #f9f9f9;
+color:rgb(51, 56, 209) ;
+border-color: rgb(51, 56, 209);
+border :3px solid rgb(51, 56, 209);
+
+}
